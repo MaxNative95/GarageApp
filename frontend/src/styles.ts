@@ -14,12 +14,13 @@ export const Spacing = {
   extraMargin: 10
 }
 
+
 export const Container = styled.View`
   flex: 1;
   backgroundColor: ${Colors.backgroundColor};
-  alignItems: flex-start;
   justifyContent: center;
 }`
+//  alignItems: flex-start;
 
 export const StatusBar = styled(eStatusBar).attrs({
   style: 'auto'

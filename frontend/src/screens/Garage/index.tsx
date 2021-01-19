@@ -3,8 +3,11 @@ import { ScrollView, TouchableOpacity } from 'react-native'
 import { getList } from '../../services/api'
 import CardListItem from '../../components/CardListItem'
 import { Space, Title } from './styles'
+import * as SQLite from 'expo-sqlite';
 
-const Garage = () => {
+const db = SQLite.openDatabase('db.testDb');
+
+const Garage = ({ navigation }) => {
   const [data, setData] = useState([])
 
   useEffect(() => {
@@ -15,14 +18,24 @@ const Garage = () => {
     updateData()
   }, [])
 
-  console.log(data)
+  // useEffect(() => {
+  //   db.transaction(tx => {
+  //     tx.executeSql(
+  //       'create table if not exists items (id integer primary key not null, done int, value text);'
+  //     );
+  //   });
+  // }, []);
+
+
+
   return (
     <ScrollView>
       <Title>Garage</Title>
       {data.map((item: any) => (
         <>
           <TouchableOpacity
-            onPress={() => alert(`Presionado card numero ${item.model}`)}
+            key={item.id}
+            onPress={() => navigation.navigate('Details', { item: item })}
           >
             <CardListItem
               id={item.model}

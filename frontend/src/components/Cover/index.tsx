@@ -16,7 +16,7 @@ const Cover = ({ source }: Props) => {
     <Image
       source={{ uri: source }}
       style={{
-        width: size.width,
+        width: '100%',
         height: size.width * 0.67,
       }}
     />
