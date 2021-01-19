@@ -7,7 +7,8 @@
       "year": 2015,
       "image": {
         "url": "http://localhost:3000/assets/vehicle_image-155fa5ae-00a0-11ea-84e3-4371baa68b28.jpg"
-      }
+      },
+      "info" : "If unsurpassed performance represents the heart of the Audi RS 7 experience, the expressive Sportback design offers a glimpse of its soul, with fluid lines and athletic contours that give depth to a powerful character."
     },
     {
       "id": "206b3cd8-00a0-11ea-a1de-278776d54145",
@@ -16,7 +17,8 @@
       "year": 2013,
       "image": {
         "url": "http://localhost:3000/assets/vehicle_image-206b3cd8-00a0-11ea-a1de-278776d54145.jpg"
-      }
+      },
+      "info" : "The A6 sets out to impress with its versatility, which is also reflected in the broad range of model variants. The A6 Sedan and the A6 Avant are available with one of several combustion engines or as the TFSI e with the innovative plug-in hybrid drive."
     },
     {
       "id": "2b301b3e-00a0-11ea-a1df-d319b5694f62",
@@ -25,7 +27,8 @@
       "year": 2011,
       "image": {
         "url": "http://localhost:3000/assets/vehicle_image-2b301b3e-00a0-11ea-a1df-d319b5694f62.jpg"
-      }
+      },
+      "info" : "The Mercedes-Benz G-Class, sometimes called G-Wagen (short for Geländewagen, terrain vehicle), is a mid-size four-wheel drive luxury SUV manufactured by Magna Steyr (formerly Steyr-Daimler-Puch) in Austria and sold by Mercedes-Benz. In certain markets, it has been sold under the Puch name as Puch G."
     },
     {
       "id": "329ca892-00a0-11ea-a1e0-87df99c1daef",
@@ -34,7 +37,8 @@
       "year": 2015,
       "image": {
         "url": "http://localhost:3000/assets/vehicle_image-329ca892-00a0-11ea-a1e0-87df99c1daef.jpg"
-      }
+      },
+      "info" : "The Bugatti Veyron EB 16.4 is a mid-engine sports car, designed and developed in Germany by the Bugatti Engineering GmbH and manufactured by the Bugatti Automobiles SAS in Molsheim, France. The Veyron's fundamental concept is based on a technical draft of Bugatti chief engineer and Technical Guru Frank Goetzke"
     },
     {
       "id": "3e33a386-00a0-11ea-a1e1-33fd4292aab9",
