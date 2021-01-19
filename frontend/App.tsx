@@ -1,12 +1,10 @@
 import React from "react";
-import { createStackNavigator } from "@react-navigation/stack";
 import { Container, StatusBar } from './src/styles'
 import { Provider } from 'react-redux'
 import { store } from './src/store'
 import Navigator from './src/navigator/Navigator';
 
-
-const Stack = createStackNavigator();
+console.disableYellowBox = true;
 
 function App() {
   return (
